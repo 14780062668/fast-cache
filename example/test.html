@@ -10,5 +10,11 @@
 <body>
     <p>fast-cache</p>
     <script src="../release/bundle.js"></script>
+    <script>
+
+        let cache = new FastCache();
+        cache.set('a', 100);
+        console.log(cache.get('a'));
+    </script>
 </body>
 </html>
